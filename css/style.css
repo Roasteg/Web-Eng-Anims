@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.maindiv{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    margin:0 auto;
+    font-size: 0;
+}
+.maindiv > div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.red{
+    background-color: red;
+
+}
+.green{
+    background-color: green;
+
+}
+.yellow{
+    background-color: yellow;
+
+    
+}
+
+/*task.html*/
+
+.mainDiv{
+    height: 600px;
+    width: 600px;
+    background-color: blue;
+    margin:0 auto;
+    font-size: 0;
+}
+.mainDiv > div{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+.sqr1{
+    background-color: red;
+    
+
+}
+.sqr1:hover{
+    opacity: 0%;
+}
+.sqr2:hover, .sqr3:hover, .sqr4:hover, .sqr5:hover, .sqr6:hover{
+    animation: rotate 3s;
+}
+
+.yell{
+    background-color: yellow;
+
+    border-radius: 50%;
+}
+.sqr2{
+    background-color: green;
+}
+.rd{
+    background-color: red;
+    border-radius: 50%;
+}
+.sqr3{
+    background-color: yellow;
+}
+.sqr4{
+    background-color: green
+}
+.sqr5{
+    background-color: red;
+}
+.sqr6{
+    background-color: yellow;
+}
+.gree{
+    border-radius:50%;
+    background-color: green;
+}
+@keyframes rotate{
+    100% { -webkit-transform: rotate(180deg);}
+}
